@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028386, g: 0.22571427, b: 0.3069231, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -579,6 +579,78 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23f579503cc13ef4b8d9a0035a923731, type: 3}
+--- !u!1001 &810697194
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.013896674
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000000014901161
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.631319
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      propertyPath: m_Name
+      value: CatAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c5fc3dc619475c041bf248c2b7557eeb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1297242526}
+  m_SourcePrefab: {fileID: 100100000, guid: c5fc3dc619475c041bf248c2b7557eeb, type: 3}
 --- !u!1001 &870509154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -925,6 +997,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77fffca4ee0ec3844af709f3073b2d9d, type: 3}
+--- !u!1 &1297242524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c5fc3dc619475c041bf248c2b7557eeb,
+    type: 3}
+  m_PrefabInstance: {fileID: 810697194}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1297242526
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297242524}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc9656ba1dd3bc042b0047246e426673, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1406055058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1348,3 +1447,4 @@ SceneRoots:
   - {fileID: 568640017}
   - {fileID: 1171159999}
   - {fileID: 738149041}
+  - {fileID: 810697194}
